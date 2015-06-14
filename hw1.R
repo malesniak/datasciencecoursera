@@ -31,7 +31,6 @@ subset3 <-subset(hw1, Month==5)
 subset3
 
 colMax <- function(data) sapply(data, max, na.rm=TRUE)
-colMax
-
+colMax(sebset3)
 
 
